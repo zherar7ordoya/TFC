@@ -345,9 +345,9 @@ namespace ControllerLayer
 
                 return cotizacion;
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBoxService.Error("No se pudo cotizar el servicio. Verifique los datos ingresados.");
+                MessageBoxService.Error($"No se pudo cotizar el servicio: {ex.Message}");
                 return 0;
             }
         }

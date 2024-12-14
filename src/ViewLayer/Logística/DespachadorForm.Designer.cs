@@ -508,6 +508,7 @@
             // InsumosListBox
             // 
             this.InsumosListBox.FormattingEnabled = true;
+            this.InsumosListBox.HorizontalScrollbar = true;
             this.InsumosListBox.ItemHeight = 18;
             this.InsumosListBox.Location = new System.Drawing.Point(12, 301);
             this.InsumosListBox.Name = "InsumosListBox";

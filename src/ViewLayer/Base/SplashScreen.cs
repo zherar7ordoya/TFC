@@ -31,7 +31,7 @@ namespace ViewLayer
             Temporizador.Tick += Temporizador_Tick;
         }
 
-        private readonly ViewException _base = GenericFactory.Instanciar<ViewException>();
+        //private readonly ViewException _base = GenericFactory.Instanciar<ViewException>();
         private readonly SplashController _controller;
         private readonly string _carpetaBase;
         private readonly ControllerCRU<Archivo> _crudArchivo;

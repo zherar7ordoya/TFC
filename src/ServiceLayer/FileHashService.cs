@@ -46,39 +46,77 @@ namespace ServiceLayer
         /// <returns>Resultado de la operación.</returns>
         public bool RegistrarHashes()
         {
-            // Obtener todas las rutas de archivos XML en la carpeta de datos
-            string[] rutas = ObtenerRutas();
-            // Leer la lista actual de archivos desde el CRUD
-            var archivos = _crudArchivo.Read();
-
-            foreach (var ruta in rutas)
+            try
             {
-                string nombre = Path.GetFileName(ruta);
-                string hash = CalcularSHA256(ruta);
+                // Obtener todas las rutas de archivos XML en la carpeta de datos
+                string[] rutas = ObtenerRutas();
+                var archivos = _crudArchivo.Read();
 
-                // Verificar si ya existe un archivo con el mismo nombre
-                var actualizable = archivos.FirstOrDefault(a => a.Nombre == nombre);
-
-                if (actualizable != null)
+                // Verificar y marcar como bloqueados los archivos que ya no existen
+                foreach (var archivo in archivos.ToList()) // Usamos ToList() para evitar problemas de modificación de colección mientras se recorre
                 {
-                    // Si existe, actualizar el hash y actualizar el archivo en el CRUD
-                    actualizable.Hash = hash;
-                    actualizable.Fecha = DateTime.Now;
-                    _crudArchivo.Update(actualizable);
-                }
-                else
-                {
-                    // Si no existe, crear un nuevo archivo con un nuevo Id
-                    var nuevo = new Archivo
+                    string archivoPath = Path.Combine(_carpetaData, archivo.Nombre);
+                    if (!File.Exists(archivoPath))
                     {
-                        Fecha = DateTime.Now,
-                        Nombre = nombre,
-                        Hash = hash
-                    };
-                    _crudArchivo.Create(nuevo);
+                        archivo.Bloqueado = true;  // Marcar el archivo como bloqueado
+                        _crudArchivo.Update(archivo);  // Actualizar el estado del archivo
+                    }
                 }
+
+                // Desbloquear archivos que volvieron a existir
+                foreach (var ruta in rutas)
+                {
+                    string nombre = Path.GetFileName(ruta);
+                    var archivo = archivos.FirstOrDefault(a => a.Nombre == nombre);
+
+                    // Si el archivo estaba bloqueado, desbloquearlo
+                    if (archivo != null && archivo.Bloqueado)
+                    {
+                        archivo.Bloqueado = false;  // Desbloquear el archivo
+                        _crudArchivo.Update(archivo);  // Actualizar el estado del archivo
+                    }
+                }
+
+                // Filtrar solo los archivos que no están bloqueados
+                archivos = _crudArchivo.Read().Where(a => !a.Bloqueado).ToList();
+
+                // Procesar los archivos XML restantes
+                foreach (var ruta in rutas)
+                {
+                    string nombre = Path.GetFileName(ruta);
+                    string hash = CalcularSHA256(ruta);
+
+                    var actualizable = archivos.FirstOrDefault(a => a.Nombre == nombre);  // Ya solo consideramos los no bloqueados
+
+                    if (actualizable != null)
+                    {
+                        // Si existe y no está bloqueado, actualizar el hash y la fecha
+                        actualizable.Hash = hash;
+                        actualizable.Fecha = DateTime.Now;
+                        _crudArchivo.Update(actualizable);
+                    }
+                    else
+                    {
+                        // Si no existe, crear un nuevo archivo
+                        var nuevo = new Archivo
+                        {
+                            Fecha = DateTime.Now,
+                            Nombre = nombre,
+                            Hash = hash
+                        };
+                        _crudArchivo.Create(nuevo);
+                    }
+                }
+
+                return true;
             }
-            return true;
+            catch (Exception ex)
+            {
+                MessageBoxService.Error("Ocurrió un error al registrar los hashes: " + ex.Message);
+                return false;
+            }
+
+
         }
 
         /// <summary>
@@ -92,38 +130,53 @@ namespace ServiceLayer
         public bool CompararHashes(out string mensaje)
         {
             mensaje = string.Empty;
-            var archivos = _crudArchivo.Read();
 
-            // Asume un primer inicio.
-            // En el primer inicio (sin hashes previos), generamos un estado base confiable
-            // para asegurar la detección de inconsistencias en futuros inicios.
-            // Esto maneja escenarios donde la aplicación nunca fue cerrada correctamente.
-            if (archivos.Count == 0)
+            try
             {
-                mensaje = "No se encontraron comprobadores de consistencia.";
-                return RegistrarHashes();
-            }
+                var archivos = _crudArchivo.Read();
 
-            foreach (var archivo in archivos)
-            {
-                string hashEsperado = archivo.Hash;
+                // Filtrar los archivos bloqueados para solo verificar los activos
+                archivos = archivos.Where(a => !a.Bloqueado).ToList();
 
-                if (hashEsperado == null)
+                // Asume un primer inicio.
+                // Si no hay archivos registrados, realizamos el registro de los hashes
+                if (archivos.Count == 0)
                 {
-                    mensaje = $"El archivo {archivo.Nombre} no tiene hash.";
-                    return false;
+                    mensaje = "No se encontraron comprobadores de consistencia.";
+                    return RegistrarHashes();
                 }
 
-                string hashReal = CalcularSHA256(Path.Combine(_carpetaData, archivo.Nombre));
-
-                if (hashReal != hashEsperado)
+                foreach (var archivo in archivos)
                 {
-                    mensaje = $"El archivo {archivo.Nombre} ha sido modificado.";
-                    return false;
+                    string hashEsperado = archivo.Hash;
+                    if (hashEsperado == null)
+                    {
+                        mensaje = $"El archivo {archivo.Nombre} no tiene hash.";
+                        return false;
+                    }
+
+                    // Calcular el hash real solo si el archivo existe
+                    string archivoPath = Path.Combine(_carpetaData, archivo.Nombre);
+                    if (File.Exists(archivoPath))
+                    {
+                        string hashReal = CalcularSHA256(archivoPath);
+                        if (hashReal != hashEsperado)
+                        {
+                            mensaje = $"El archivo {archivo.Nombre} ha sido modificado.";
+                            return false;
+                        }
+                    }
                 }
+
+                mensaje = "Verificación de consistencia de archivos correcta.";
+                return true;
             }
-            mensaje = "Verificación de consistencia de archivos correcta.";
-            return true;
+            catch (Exception ex)
+            {
+                mensaje = $"Ocurrió un error al comparar los hashes: {ex.Message}";
+                return false;
+            }
+
         }
 
         private string CalcularSHA256(string ruta)
