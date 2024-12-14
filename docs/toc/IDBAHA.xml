@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="8d39bca3-30d6-a43a-2694-24c67d6eac9b.htm">Service<wbr />Layer</a>
+    </li>
+    <li>
+      <a href="4f3cd69c-7f77-3c29-da02-b8146f319643.htm">Audit<wbr />Log<wbr />Service</a>
+    </li>
+    <li>
+      <a href="fa12c9dd-147b-3d10-1a03-6fefb3f4ce2e.htm">Métodos</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="c3c75ca7-9568-1b4b-1839-99fe146c31f2" href="c3c75ca7-9568-1b4b-1839-99fe146c31f2.htm">Registrar<wbr />Backup</a>
+    </li>
+    <li>
+      <a id="57283393-4961-ae5d-abe0-88456dddd53e" href="57283393-4961-ae5d-abe0-88456dddd53e.htm">Registrar<wbr />Excepcion</a>
+    </li>
+    <li>
+      <a id="ac388c86-a507-bbbd-ee89-2223299185a7" href="ac388c86-a507-bbbd-ee89-2223299185a7.htm">Registrar<wbr />Login</a>
+    </li>
+    <li>
+      <a id="af09c425-0a97-675d-92db-92f99645a7fe" href="af09c425-0a97-675d-92db-92f99645a7fe.htm">Registrar<wbr />Logout</a>
+    </li>
+    <li>
+      <a id="46817db5-de07-ee16-beb8-48a0b299ca06" href="46817db5-de07-ee16-beb8-48a0b299ca06.htm">Registrar<wbr />Restore</a>
+    </li>
+  </tocItems>
+</toc>

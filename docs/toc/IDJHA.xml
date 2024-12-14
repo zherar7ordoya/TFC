@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="8d39bca3-30d6-a43a-2694-24c67d6eac9b.htm">Service<wbr />Layer</a>
+    </li>
+    <li>
+      <a href="59f84986-98a7-b7b5-a6a2-9b9b4b461bb1.htm">Data<wbr />Grid<wbr />View<wbr />Service</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="9fd5305d-1102-c55d-4273-f76cb39cf0f5" class="has-submenu" href="9fd5305d-1102-c55d-4273-f76cb39cf0f5.htm">
+        <span data-tocFile="../toc/IDAJHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Métodos</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

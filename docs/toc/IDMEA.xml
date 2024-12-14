@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="f37a6351-73fa-a0f1-addc-7b35190a2939.htm">Entity<wbr />Layer</a>
+    </li>
+    <li>
+      <a href="cf794267-a55f-3959-37b1-1f41c44ef392.htm">Locacion</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="23844f87-e9dc-d2fd-c334-e0e4e79b73f3" href="23844f87-e9dc-d2fd-c334-e0e4e79b73f3.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="95b21305-a474-3fe6-a441-7831ba301b9c" class="has-submenu" href="95b21305-a474-3fe6-a441-7831ba301b9c.htm">
+        <span data-tocFile="../toc/IDBMEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Propiedades</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="dc5958ec-3745-7994-5d42-5fc11f528a15" class="has-submenu" href="dc5958ec-3745-7994-5d42-5fc11f528a15.htm">
+        <span data-tocFile="../toc/IDCMEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Métodos</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

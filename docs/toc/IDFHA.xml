@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="8d39bca3-30d6-a43a-2694-24c67d6eac9b.htm">Service<wbr />Layer</a>
+    </li>
+    <li>
+      <a href="2922cd1c-5fb3-1114-810e-ede787c1fa16.htm">Busqueda<wbr />Base</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="204d8e7c-a3c2-7958-e521-aaf919b5650f" href="204d8e7c-a3c2-7958-e521-aaf919b5650f.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="0968698e-f5a2-7f39-6070-643444100b46" class="has-submenu" href="0968698e-f5a2-7f39-6070-643444100b46.htm">
+        <span data-tocFile="../toc/IDBFHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Eventos</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

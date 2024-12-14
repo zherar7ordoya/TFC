@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="adc42a6b-48bf-b91c-39de-6b18bedd2d4f" class="has-submenu" href="adc42a6b-48bf-b91c-39de-6b18bedd2d4f.htm">
+        <span data-tocFile="../toc/IDAA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Abstract<wbr />Layer</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="dcacf477-84ed-86a9-a0a2-607fff8ec073" class="has-submenu" href="dcacf477-84ed-86a9-a0a2-607fff8ec073.htm">
+        <span data-tocFile="../toc/IDBA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Controller<wbr />Layer</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="42d0604c-0b0b-bb78-410f-1b61ab31c596" class="has-submenu" href="42d0604c-0b0b-bb78-410f-1b61ab31c596.htm">
+        <span data-tocFile="../toc/IDCA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Data<wbr />Access</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="699cd2d6-1481-41f2-ef8c-776ba4af1388" class="has-submenu" href="699cd2d6-1481-41f2-ef8c-776ba4af1388.htm">
+        <span data-tocFile="../toc/IDDA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Data<wbr />Manager</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="f37a6351-73fa-a0f1-addc-7b35190a2939" class="has-submenu" href="f37a6351-73fa-a0f1-addc-7b35190a2939.htm">
+        <span data-tocFile="../toc/IDEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Entity<wbr />Layer</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="f540ac22-8407-13c4-2935-10da6f0f5964" class="has-submenu" href="f540ac22-8407-13c4-2935-10da6f0f5964.htm">
+        <span data-tocFile="../toc/IDFA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Logic<wbr />Layer</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="c39a079d-c0e7-4104-c2a6-93b2ce50fa13" class="has-submenu" href="c39a079d-c0e7-4104-c2a6-93b2ce50fa13.htm">
+        <span data-tocFile="../toc/IDGA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Mapper<wbr />Layer</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="8d39bca3-30d6-a43a-2694-24c67d6eac9b" class="has-submenu" href="8d39bca3-30d6-a43a-2694-24c67d6eac9b.htm">
+        <span data-tocFile="../toc/IDHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Service<wbr />Layer</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="b6261fe3-14ca-ce1b-6bed-5dedc86c37de" class="has-submenu" href="b6261fe3-14ca-ce1b-6bed-5dedc86c37de.htm">
+        <span data-tocFile="../toc/IDIA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Unit<wbr />Tests</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="2ccbf576-c0ad-ae1b-8ce9-b32ef862ff50" class="has-submenu" href="2ccbf576-c0ad-ae1b-8ce9-b32ef862ff50.htm">
+        <span data-tocFile="../toc/IDJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>View<wbr />Layer</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

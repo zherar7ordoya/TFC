@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="2ccbf576-c0ad-ae1b-8ce9-b32ef862ff50.htm">View<wbr />Layer</a>
+    </li>
+    <li>
+      <a href="0fba24fc-acbd-32ca-a356-30103ab5a142.htm">Menu<wbr />Form</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="ec102dc6-dd69-dfe1-f11a-5d97bc47068a" href="ec102dc6-dd69-dfe1-f11a-5d97bc47068a.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="6c798211-3c09-d774-5103-d3c498ab9b05" class="has-submenu" href="6c798211-3c09-d774-5103-d3c498ab9b05.htm">
+        <span data-tocFile="../toc/IDBSJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Métodos</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

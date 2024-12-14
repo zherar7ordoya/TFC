@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="8d39bca3-30d6-a43a-2694-24c67d6eac9b.htm">Service<wbr />Layer</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="4f3cd69c-7f77-3c29-da02-b8146f319643" class="has-submenu" href="4f3cd69c-7f77-3c29-da02-b8146f319643.htm">
+        <span data-tocFile="../toc/IDAHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Audit<wbr />Log<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="7328d9a8-3411-934f-1768-6c42a6ec6c05" class="has-submenu" href="7328d9a8-3411-934f-1768-6c42a6ec6c05.htm">
+        <span data-tocFile="../toc/IDBHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Authentication<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="d6bc4dc2-97df-0cdb-14b5-102dd4c402d9" class="has-submenu" href="d6bc4dc2-97df-0cdb-14b5-102dd4c402d9.htm">
+        <span data-tocFile="../toc/IDCHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Authorization<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="92c2e184-df56-2cb8-15e6-7c914e7452e9" class="has-submenu" href="92c2e184-df56-2cb8-15e6-7c914e7452e9.htm">
+        <span data-tocFile="../toc/IDDHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Backup<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="d42aec2b-e35f-e636-45fc-c3f950e6a7f4" class="has-submenu" href="d42aec2b-e35f-e636-45fc-c3f950e6a7f4.htm">
+        <span data-tocFile="../toc/IDEHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Bitacora<wbr />Search</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="2922cd1c-5fb3-1114-810e-ede787c1fa16" class="has-submenu" href="2922cd1c-5fb3-1114-810e-ede787c1fa16.htm">
+        <span data-tocFile="../toc/IDFHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Busqueda<wbr />Base</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="becae586-7921-5636-526a-13fea430d0dd" class="has-submenu" href="becae586-7921-5636-526a-13fea430d0dd.htm">
+        <span data-tocFile="../toc/IDGHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Cliente<wbr />Search</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="a73e607b-ff08-8121-89f4-a40067e16155" class="has-submenu" href="a73e607b-ff08-8121-89f4-a40067e16155.htm">
+        <span data-tocFile="../toc/IDHHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Component<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="24f82a8a-b899-892f-f480-0c19a009e7b6" class="has-submenu" href="24f82a8a-b899-892f-f480-0c19a009e7b6.htm">
+        <span data-tocFile="../toc/IDIHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Configuration<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="59f84986-98a7-b7b5-a6a2-9b9b4b461bb1" class="has-submenu" href="59f84986-98a7-b7b5-a6a2-9b9b4b461bb1.htm">
+        <span data-tocFile="../toc/IDJHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Data<wbr />Grid<wbr />View<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="12720c65-774b-f812-ee68-be28ee26706c" class="has-submenu" href="12720c65-774b-f812-ee68-be28ee26706c.htm">
+        <span data-tocFile="../toc/IDKHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Empleado<wbr />Search</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="2e120e79-09a4-e6cb-f018-e1f6d746403b" class="has-submenu" href="2e120e79-09a4-e6cb-f018-e1f6d746403b.htm">
+        <span data-tocFile="../toc/IDLHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Enumerator<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="0904619c-08f5-2b52-065f-8554cc513312" class="has-submenu" href="0904619c-08f5-2b52-065f-8554cc513312.htm">
+        <span data-tocFile="../toc/IDMHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Exception<wbr />Login</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="b8c1a5b0-076a-6f5d-d8c2-ecb3773d38d3" class="has-submenu" href="b8c1a5b0-076a-6f5d-d8c2-ecb3773d38d3.htm">
+        <span data-tocFile="../toc/IDNHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Exception<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="f70111e7-208d-5a2a-7ad0-cead57f77dac" class="has-submenu" href="f70111e7-208d-5a2a-7ad0-cead57f77dac.htm">
+        <span data-tocFile="../toc/IDOHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>File<wbr />Hash<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="dfda701f-df1a-3898-7e91-e79869888cd6" class="has-submenu" href="dfda701f-df1a-3898-7e91-e79869888cd6.htm">
+        <span data-tocFile="../toc/IDPHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Flag<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="49b602b0-8f66-1823-ec23-e1bbde1bdab7" class="has-submenu" href="49b602b0-8f66-1823-ec23-e1bbde1bdab7.htm">
+        <span data-tocFile="../toc/IDQHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Html<wbr />Generator<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="7ff6e7a9-79c0-7a82-d958-58e5fb4edecd" class="has-submenu" href="7ff6e7a9-79c0-7a82-d958-58e5fb4edecd.htm">
+        <span data-tocFile="../toc/IDRHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Html<wbr />Visor<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="d46436da-5a6c-6b1a-c431-0b158411bc47" class="has-submenu" href="d46436da-5a6c-6b1a-c431-0b158411bc47.htm">
+        <span data-tocFile="../toc/IDSHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Message<wbr />Box<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="29026b5b-0d3e-d425-0a24-4236030b2554" class="has-submenu" href="29026b5b-0d3e-d425-0a24-4236030b2554.htm">
+        <span data-tocFile="../toc/IDTHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Printer<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="2f7b366e-79f8-0587-b639-b0ea774bc65d" class="has-submenu" href="2f7b366e-79f8-0587-b639-b0ea774bc65d.htm">
+        <span data-tocFile="../toc/IDUHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Random<wbr />Credentials<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="9edea11c-4353-5b4c-e4c6-c993d34373ef" class="has-submenu" href="9edea11c-4353-5b4c-e4c6-c993d34373ef.htm">
+        <span data-tocFile="../toc/IDVHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Rol<wbr />Search</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="5eb37ab5-8b1f-65f0-b6ba-56d96fbe9c77" class="has-submenu" href="5eb37ab5-8b1f-65f0-b6ba-56d96fbe9c77.htm">
+        <span data-tocFile="../toc/IDWHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Search<wbr />Service&lt;T&gt;</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="2f3579d4-01f7-b019-745a-fe205473aae1" class="has-submenu" href="2f3579d4-01f7-b019-745a-fe205473aae1.htm">
+        <span data-tocFile="../toc/IDXHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Session<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="84149a32-b4f2-96ef-eb0f-6bb50d64c76c" class="has-submenu" href="84149a32-b4f2-96ef-eb0f-6bb50d64c76c.htm">
+        <span data-tocFile="../toc/IDYHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Validation<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="69eca427-ae5f-989c-ea5e-8a8728c15818" class="has-submenu" href="69eca427-ae5f-989c-ea5e-8a8728c15818.htm">
+        <span data-tocFile="../toc/IDZHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>XOREncryption<wbr />Service</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

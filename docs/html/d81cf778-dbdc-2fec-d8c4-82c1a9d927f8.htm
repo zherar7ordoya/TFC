@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html >
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" href="../css/bulma.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/presentationStyle.css" />
+    <link rel="stylesheet" href="../css/vs.min.css" />
+    <script src="../scripts/jquery-3.5.1.min.js"></script>
+    <script src="../scripts/clipboard.min.js"></script>
+    <script src="../scripts/highlight.min.js"></script>
+    <script src="../scripts/presentationStyle.js"></script>
+    <title>Factura Propiedades</title>
+    <meta name="Title" content="Propiedades" />
+    <meta name="Help.Id" content="Properties.T:EntityLayer.Factura" />
+    <meta name="Help.ContentType" content="Reference" />
+    <meta name="container" content="EntityLayer" />
+    <meta name="guid" content="d81cf778-dbdc-2fec-d8c4-82c1a9d927f8" />
+    <meta name="tocFile" content="../toc/IDKEA.xml" />
+  </head>
+  <body>
+    <div class="fixedLayout">
+      <div id="Header" class="fixedHeader">
+        <div class="pageHeader level mb-0 py-2 px-4">
+          <div id="TitleContainer" class="level-left">
+            <div id="DocumentationTitle" class="level-item">A Sandcastle Documented Class Library</div>
+          </div>
+          <div id="LangFilterSearchContainer" class="level-right">
+            <div class="level-item">
+              <div class="dropdown is-hoverable">
+                <div class="dropdown-trigger">
+                  <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                    <span id="CurrentLanguage"></span>
+                    <span class="icon is-small">
+                      <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div>
+                <div class="dropdown-menu" role="menu">
+                  <div id="LanguageSelections" class="dropdown-content">
+                    <a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="level-item">
+              <form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;">
+                <div class="field">
+                  <div class="control has-icons-left">
+                    <input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" />
+                    <span class="icon is-small is-left">
+                      <i class="fa fa-search"></i>
+                    </span>
+                    <button id="SearchButton" type="submit" class="is-hidden"></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fixedContent">
+        <div id="HeaderPrelimContainer" class="level my-1 px-2">
+          <div id="PreliminaryContainer" class="level-left">
+            <div class="level-item">
+              <span class="tag is-warning is-medium">Ésta es documentación preliminar y está sujeta a cambios.</span>
+            </div>
+          </div>
+        </div>
+        <nav class="breadcrumb my-1 px-2 border-bottom" role="navigation">
+          <ul id="TopicBreadcrumbs" />
+        </nav>
+        <div id="ContentContainer" class="columns pl-5 pr-5 fixedContent">
+          <div id="ShowHideTOCColumn" class="column is-hidden-tablet">
+            <a id="ShowHideTOC">Show/Hide TOC</a>
+          </div>
+          <div id="TOCColumn" class="column is-hidden-mobile">
+            <nav class="toc">
+              <ul id="TableOfContents" class="toc-menu" />
+            </nav>
+          </div>
+          <div id="Resizer" class="is-hidden"></div>
+          <div id="TopicContent" class="column content is-7">
+            <h1>Factura Propiedades</h1>
+            <h2 class="quickLinkHeader">
+              <span class="icon toggleSection" tabindex="0">
+                <i class="fa fa-angle-down"></i>
+              </span>Propiedades</h2>
+            <div id="IDADASection">
+              <table id="PropertyList" class="table is-hoverable">
+                <tr>
+                  <td>
+                    <a href="96d7fa05-d0e1-6bf7-2e71-539435c47a06.htm">Fecha</a>
+                  </td>
+                  <td>Fecha en la que se creó la factura.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="173feec3-ffcd-c425-0dfc-828c9f645390.htm">Impuesto</a>
+                  </td>
+                  <td>Impuesto aplicado.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="62782b00-48b7-a5ad-ab01-a9663812931c.htm">Operador</a>
+                  </td>
+                  <td>Nombre del empleado que creó la factura.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="b28952c7-100e-57e4-a39a-6ea1c83f2634.htm">Subtotal</a>
+                  </td>
+                  <td>Total cotizado en la orden.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="59d76a30-723b-6a5b-aab1-058ea1db489a.htm">Total</a>
+                  </td>
+                  <td>Total a pagar.</td>
+                </tr>
+              </table>
+            </div>
+            <h2 class="quickLinkHeader">
+              <span class="icon toggleSection" tabindex="0">
+                <i class="fa fa-angle-down"></i>
+              </span>Vea también</h2>
+            <div id="seeAlsoSection">
+              <h4>Referencia</h4>
+              <div>
+                <a href="da7dbbb2-8086-63b7-bd85-24729dd54280.htm">Factura Clase</a>
+              </div>
+              <div>
+                <a href="f37a6351-73fa-a0f1-addc-7b35190a2939.htm">Espacio de nombres EntityLayer</a>
+              </div>
+            </div>
+          </div>
+          <div id="InThisArticleColumn" class="column is-hidden-mobile">
+            <nav class="menu sticky is-hidden">
+              <p class="menu-label">
+                <strong>In This Article</strong>
+              </p>
+              <ul id="InThisArticleMenu" class="menu-list">
+                <li>
+                  <a class="quickLink">Propiedades</a>
+                </li>
+                <li>
+                  <a class="quickLink">Vea también</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+});</script>
+  </body>
+</html>

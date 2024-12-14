@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2024.9.12.0" projectFile="D:\Documents\TFC\docs\La Mudadora.shfbproj" started="13/12/2024 00:23:20">
+<buildStep step="Initializing">
+The Sandcastle tools are located in &#39;D:\EWSoftware\Sandcastle Help File Builder&#39;
+Locating components in the following folder(s):
+    D:\Documents\TFC\docs
+    C:\ProgramData\EWSoftware\Sandcastle Help File Builder\Components and Plug-Ins
+    D:\EWSoftware\Sandcastle Help File Builder\Components
+Using framework reflection data for &#39;.NET Framework 4.7.2&#39; located in &#39;D:\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
+Using presentation style &#39;Default2022&#39; located in &#39;D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022&#39;
+Loading and initializing plug-ins...
+Website Table of Contents Generator Version 2024.9.12.0
+Copyright &#169; 2006-2024, Eric Woodruff, All Rights Reserved
+-------------------------------
+Clearing any prior web/markdown output...
+</buildStep>
+<buildStep step="ValidatingDocumentationSources">
+Validating and copying documentation source information
+Source: D:\Documents\TFC\src\La Mudadora.sln
+    Found project &#39;D:\Documents\TFC\src\ViewLayer\1) ViewLayer.csproj&#39;
+    Found project &#39;D:\Documents\TFC\src\ControllerLayer\2) ControllerLayer.csproj&#39;
+    Found project &#39;D:\Documents\TFC\src\LogicLayer\3) LogicLayer.csproj&#39;
+    Found project &#39;D:\Documents\TFC\src\DataManager\4) DataManager.csproj&#39;
+    Found project &#39;D:\Documents\TFC\src\DataAccess\5) DataAccess.csproj&#39;
+    Found project &#39;D:\Documents\TFC\src\AbstractLayer\AbstractLayer.csproj&#39;
+    Found project &#39;D:\Documents\TFC\src\EntityLayer\EntityLayer.csproj&#39;
+    Found project &#39;D:\Documents\TFC\src\ServiceLayer\ServiceLayer.csproj&#39;
+    Found project &#39;D:\Documents\TFC\src\UnitTests\UnitTests.csproj&#39;
+    Found project &#39;D:\Documents\TFC\src\MapperLayer\MapperLayer.csproj&#39;
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\AbstractLayer.xml
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\AbstractLayer.dll
+    Found assembly &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\AbstractLayer.dll&#39;
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\ControllerLayer.xml
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\ControllerLayer.dll
+    Found assembly &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\ControllerLayer.dll&#39;
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\DataAccess.xml
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\DataAccess.dll
+    Found assembly &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\DataAccess.dll&#39;
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\DataManager.xml
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\DataManager.dll
+    Found assembly &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\DataManager.dll&#39;
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\EntityLayer.xml
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\EntityLayer.dll
+    Found assembly &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\EntityLayer.dll&#39;
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\LogicLayer.xml
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\LogicLayer.dll
+    Found assembly &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\LogicLayer.dll&#39;
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\MapperLayer.xml
+SHFB: Warning BE0006: Unable to locate any documentation sources for &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\MapperLayer.xml&#39; (Configuration: Debug Platform: AnyCPU)
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\MapperLayer.dll
+SHFB: Warning BE0006: Unable to locate any documentation sources for &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\MapperLayer.dll&#39; (Configuration: Debug Platform: AnyCPU)
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\ServiceLayer.xml
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\ServiceLayer.dll
+    Found assembly &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\ServiceLayer.dll&#39;
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\ViewLayer.xml
+Source: D:\Documents\TFC\src\ViewLayer\bin\Debug\ViewLayer.exe
+    Found assembly &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\ViewLayer.exe&#39;
+
+Parsing project files
+    Ignoring duplicate assembly file &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\ViewLayer.exe&#39;
+    Ignoring duplicate comments file &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\ViewLayer.xml&#39;
+    Found assembly &#39;D:\Documents\TFC\src\ControllerLayer\bin\Debug\ControllerLayer.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Documents\TFC\src\LogicLayer\bin\Debug\LogicLayer.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Documents\TFC\src\DataManager\bin\Debug\DataManager.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Documents\TFC\src\DataAccess\bin\Debug\DataAccess.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Documents\TFC\src\AbstractLayer\bin\Debug\AbstractLayer.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Documents\TFC\src\EntityLayer\bin\Debug\EntityLayer.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Documents\TFC\src\ServiceLayer\bin\Debug\ServiceLayer.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Documents\TFC\src\UnitTests\bin\Debug\UnitTests.dll&#39; (.NETFramework 4.7.2)
+    Found assembly &#39;D:\Documents\TFC\src\MapperLayer\bin\Debug\MapperLayer.dll&#39; (.NETFramework 4.7.2)
+
+References to include:
+    MaterialSkin2Framework, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL
+    Microsoft.ApplicationInsights, Version=2.22.0.997, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL
+    Microsoft.Testing.Extensions.Telemetry, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    Microsoft.Testing.Extensions.TrxReport.Abstractions, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    Microsoft.Testing.Extensions.VSTestBridge, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    Microsoft.Testing.Platform, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    Microsoft.Testing.Platform.MSBuild, Version=1.4.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    Microsoft.TestPlatform.CoreUtilities, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    Microsoft.TestPlatform.PlatformAbstractions, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    Microsoft.VisualStudio.TestPlatform.ObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    System.Buffers, Version=4.0.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+    System.Collections.Immutable, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    System.Diagnostics.DiagnosticSource, Version=9.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+    System.Memory, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL
+    System.Numerics.Vectors, Version=4.1.5.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    System.Reflection.Metadata, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+    System.Runtime
+    System.Runtime.CompilerServices.Unsafe, Version=6.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL
+
+Copying XML comments files
+    D:\Documents\TFC\src\MapperLayer\bin\Debug\MapperLayer.xml -&gt; D:\Documents\TFC\docs\Help\Working\MapperLayer.xml
+    D:\Documents\TFC\src\UnitTests\bin\Debug\UnitTests.xml -&gt; D:\Documents\TFC\docs\Help\Working\UnitTests.xml
+    D:\Documents\TFC\src\ServiceLayer\bin\Debug\ServiceLayer.xml -&gt; D:\Documents\TFC\docs\Help\Working\ServiceLayer.xml
+    D:\Documents\TFC\src\EntityLayer\bin\Debug\EntityLayer.xml -&gt; D:\Documents\TFC\docs\Help\Working\EntityLayer.xml
+    D:\Documents\TFC\src\AbstractLayer\bin\Debug\AbstractLayer.xml -&gt; D:\Documents\TFC\docs\Help\Working\AbstractLayer.xml
+    D:\Documents\TFC\src\DataAccess\bin\Debug\DataAccess.xml -&gt; D:\Documents\TFC\docs\Help\Working\DataAccess.xml
+    D:\Documents\TFC\src\DataManager\bin\Debug\DataManager.xml -&gt; D:\Documents\TFC\docs\Help\Working\DataManager.xml
+    D:\Documents\TFC\src\LogicLayer\bin\Debug\LogicLayer.xml -&gt; D:\Documents\TFC\docs\Help\Working\LogicLayer.xml
+    D:\Documents\TFC\src\ControllerLayer\bin\Debug\ControllerLayer.xml -&gt; D:\Documents\TFC\docs\Help\Working\ControllerLayer.xml
+SHFB: Warning BE0063: &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\AbstractLayer.xml&#39; matches a previously copied comments filename.  The duplicate will be copied to a unique name to preserve the comments it contains.
+    D:\Documents\TFC\src\ViewLayer\bin\Debug\AbstractLayer.xml -&gt; D:\Documents\TFC\docs\Help\Working\{66430ef5-b193-43c2-b7a1-2ba3fbf13377}
+SHFB: Warning BE0063: &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\ControllerLayer.xml&#39; matches a previously copied comments filename.  The duplicate will be copied to a unique name to preserve the comments it contains.
+    D:\Documents\TFC\src\ViewLayer\bin\Debug\ControllerLayer.xml -&gt; D:\Documents\TFC\docs\Help\Working\{c48c44e3-921f-4fde-9bd2-826d887808fa}
+SHFB: Warning BE0063: &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\DataAccess.xml&#39; matches a previously copied comments filename.  The duplicate will be copied to a unique name to preserve the comments it contains.
+    D:\Documents\TFC\src\ViewLayer\bin\Debug\DataAccess.xml -&gt; D:\Documents\TFC\docs\Help\Working\{0a3f5fb1-e1d4-40d0-b750-d3a6fb1b6ca0}
+SHFB: Warning BE0063: &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\DataManager.xml&#39; matches a previously copied comments filename.  The duplicate will be copied to a unique name to preserve the comments it contains.
+    D:\Documents\TFC\src\ViewLayer\bin\Debug\DataManager.xml -&gt; D:\Documents\TFC\docs\Help\Working\{ff36136f-50ec-4631-a1de-0790cab681ed}
+SHFB: Warning BE0063: &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\EntityLayer.xml&#39; matches a previously copied comments filename.  The duplicate will be copied to a unique name to preserve the comments it contains.
+    D:\Documents\TFC\src\ViewLayer\bin\Debug\EntityLayer.xml -&gt; D:\Documents\TFC\docs\Help\Working\{2f34476a-ffaf-45ae-ba9d-e53e91f1f963}
+SHFB: Warning BE0063: &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\LogicLayer.xml&#39; matches a previously copied comments filename.  The duplicate will be copied to a unique name to preserve the comments it contains.
+    D:\Documents\TFC\src\ViewLayer\bin\Debug\LogicLayer.xml -&gt; D:\Documents\TFC\docs\Help\Working\{a64d915e-2b9f-4346-861f-cb3227fde66a}
+SHFB: Warning BE0063: &#39;D:\Documents\TFC\src\ViewLayer\bin\Debug\ServiceLayer.xml&#39; matches a previously copied comments filename.  The duplicate will be copied to a unique name to preserve the comments it contains.
+    D:\Documents\TFC\src\ViewLayer\bin\Debug\ServiceLayer.xml -&gt; D:\Documents\TFC\docs\Help\Working\{4260d88c-9147-4da2-a9a9-6229854cc9c7}
+    D:\Documents\TFC\src\ViewLayer\bin\Debug\ViewLayer.xml -&gt; D:\Documents\TFC\docs\Help\Working\ViewLayer.xml
+</buildStep>
+<buildStep step="GenerateSharedContent">
+Generating shared content files (es-ES, Spanish (Spain))...
+    Last step completed in 00:00:00,0010
+</buildStep>
+<buildStep step="GenerateApiFilter">
+Generating API filter for MRefBuilder...
+    Last step completed in 00:00:00,1556
+</buildStep>
+<buildStep step="GenerateReflectionInfo">
+Generating reflection information...
+[D:\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-657b85ba-48fe-4826-b792-0177d8b22ee9.proj]
+Build started 13/12/2024 00:23:22.
+
+Project &quot;D:\Documents\TFC\docs\Help\Working\GenerateRefInfo-657b85ba-48fe-4826-b792-0177d8b22ee9.proj&quot; on node 1 (default targets).
+PrepareForBuild:
+  Creating directory &quot;obj\Debug\&quot;.
+GenerateRefInfo:
+  Microsoft.Build (v17.12.6+db5f6012cb7f6e2dd7066c50c573c0d352713407)
+  c Microsoft Corporation. All rights reserved.
+  No source code context base path specified.  Source context information is unavailable.
+  Loaded 17 assemblies for reflection and 122 dependency assemblies.
+  Using framework redirect &#39;System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
+  Using framework redirect &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
+  Using framework redirect &#39;System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39; in place of &#39;System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39;
+  Using framework redirect &#39;System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
+  Using framework redirect &#39;System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39; in place of &#39;System.Windows.Forms.DataVisualization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35&#39;
+  Using framework redirect &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Using framework redirect &#39;System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39; in place of &#39;System.Xml.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&#39;
+  Using framework redirect &#39;System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39; in place of &#39;System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a&#39;
+  Wrote information on 10 namespaces, 207 types, and 805 members
+  Merging duplicate type and member information
+  Merged 178 duplicate type(s) and 382 duplicate member(s)
+Done Building Project &quot;D:\Documents\TFC\docs\Help\Working\GenerateRefInfo-657b85ba-48fe-4826-b792-0177d8b22ee9.proj&quot; (default targets).
+    Last step completed in 00:00:01,7202
+</buildStep>
+<buildStep step="ApplyDocumentModel">
+Applying document model to reflection output...
+    Last step completed in 00:00:00,0838
+</buildStep>
+<buildStep step="AddNamespaceGroups">
+Adding namespace group entries...
+Added 0 namespace group entries
+    Last step completed in 00:00:00,0824
+</buildStep>
+<buildStep step="AddApiTopicFilenames">
+Adding topic filenames to API members...
+    Last step completed in 00:00:00,0915
+</buildStep>
+<buildStep step="GenerateApiTopicManifest">
+Generating API topic manifest...
+    Last step completed in 00:00:00,0795
+</buildStep>
+<buildStep step="GenerateNamespaceSummaries">
+Generating namespace summary information...
+    Last step completed in 00:00:00,4502
+</buildStep>
+<buildStep step="GenerateInheritedDocumentation">
+Generating inherited documentation...
+[D:\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateInheritedDocs.proj]
+
+    Last step completed in 00:00:01,6493
+</buildStep>
+<buildStep step="CopyAdditionalContent">
+Copying additional content files...
+No additional content to copy
+    Last step completed in 00:00:00,0002
+</buildStep>
+<buildStep step="MergeTablesOfContents">
+Merging conceptual and additional tables of contents...
+    Last step completed in 00:00:00,0000
+</buildStep>
+<buildStep step="GenerateIntermediateTableOfContents">
+Generating intermediate table of contents file for API content...
+Generating conceptual content intermediate TOC file...
+    Last step completed in 00:00:00,0607
+</buildStep>
+<buildStep step="CreateBuildAssemblerConfigs">
+Creating Sandcastle configuration files...
+    Last step completed in 00:00:00,3086
+</buildStep>
+<buildStep step="CombiningIntermediateTocFiles">
+Combining conceptual and API intermediate TOC files...
+    Last step completed in 00:00:00,0030
+</buildStep>
+<buildStep step="MergeCustomConfigs">
+Merging custom build component configurations
+D:\Documents\TFC\docs\Help\Working\BuildAssembler.config
+  Updating reference topic configurations.
+  No conceptual content.  Removing conceptual content components.
+    Last step completed in 00:00:00,0388
+</buildStep>
+<buildStep step="BuildTopics">
+Building help topics...
+<plugIn name="Website Table of Contents Generator" behavior="Before" priority="1000">
+Loading TOC info and adding unique IDs to parent nodes
+</plugIn>Loading configuration...
+Processing topics...
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ViewLayer.AdminAuthForm] Unknown reference link target &#39;T:MaterialSkin2Framework.Controls.MaterialForm&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ViewLayer.AyudaForm] Unknown reference link target &#39;T:MaterialSkin2Framework.Controls.MaterialForm&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ViewLayer.BackupForm] Unknown reference link target &#39;T:MaterialSkin2Framework.Controls.MaterialForm&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ViewLayer.BitacoraForm] Unknown reference link target &#39;T:MaterialSkin2Framework.Controls.MaterialForm&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ViewLayer.ConfiguracionForm] Unknown reference link target &#39;T:MaterialSkin2Framework.Controls.MaterialForm&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ViewLayer.EmpleadosForm] Unknown reference link target &#39;T:MaterialSkin2Framework.Controls.MaterialForm&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ViewLayer.MenuForm] Unknown reference link target &#39;T:MaterialSkin2Framework.Controls.MaterialForm&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ViewLayer.PermisosForm] Unknown reference link target &#39;T:MaterialSkin2Framework.Controls.MaterialForm&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ViewLayer.RestoreForm] Unknown reference link target &#39;T:MaterialSkin2Framework.Controls.MaterialForm&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:ViewLayer.RolesForm] Unknown reference link target &#39;T:MaterialSkin2Framework.Controls.MaterialForm&#39;.
+Processed 595 topic(s)
+10 warning(s)
+CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 6 of 15.
+CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 10 of 30.
+SaveComponent: Waiting for the document writer task to finish (100 Website API file(s) remaining)...
+<plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
+Generating TOC fragment files
+</plugIn>    Last step completed in 00:00:15,4902
+</buildStep>
+<buildStep step="CopyStandardHelpContent">
+Copying standard help content...
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\css\bulma.css
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.css.map -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\css\bulma.css.map
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\bulma.min.css -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\css\bulma.min.css
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.css -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\css\font-awesome.css
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\font-awesome.min.css -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\css\font-awesome.min.css
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ja-JP.css -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\css\ja-JP.css
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\ko-KR.css -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\css\ko-KR.css
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\presentationStyle.css -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\css\presentationStyle.css
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\vs.min.css -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\css\vs.min.css
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-CN.css -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\css\zh-CN.css
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\css\zh-TW.css -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\css\zh-TW.css
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\icons\favicon.ico -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\icons\favicon.ico
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\clipboard.min.js -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\scripts\clipboard.min.js
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\highlight.min.js -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\scripts\highlight.min.js
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\jquery-3.5.1.min.js -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\scripts\presentationStyle.js -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\scripts\presentationStyle.js
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.ttf -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\webfonts\fa-brands-400.ttf
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-brands-400.woff2 -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\webfonts\fa-brands-400.woff2
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.ttf -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\webfonts\fa-regular-400.ttf
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-regular-400.woff2 -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\webfonts\fa-regular-400.woff2
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.ttf -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\webfonts\fa-solid-900.ttf
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-solid-900.woff2 -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\webfonts\fa-solid-900.woff2
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.ttf -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\webfonts\fa-v4compatibility.ttf
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\webfonts\fa-v4compatibility.woff2 -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\webfonts\fa-v4compatibility.woff2
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\GeneralError.html -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\GeneralError.html
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\index.html -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\index.html
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\PageNotFound.html -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\PageNotFound.html
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\search.html -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\search.html
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.aspx -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\SearchHelp.aspx
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\SearchHelp.inc.php
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\SearchHelp.php
+D:\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; D:\Documents\TFC\docs\Help\Working\Output\Website\Web.Config
+    Last step completed in 00:00:00,0566
+</buildStep>
+<buildStep step="GenerateFullTextIndex">
+Generating full-text index for the website...
+
+    Last step completed in 00:00:01,0875
+</buildStep>
+<buildStep step="CopyingWebsiteFiles">
+Copying website files to output folder...
+
+Copied 500 files
+Copied 878 files for the website content
+    Last step completed in 00:00:01,4494
+</buildStep>
+<buildStep step="CleanIntermediates">
+Removing intermediate files...
+    Last step completed in 00:00:00,3921
+</buildStep>
+<buildStep step="Completed">
+
+Build completed successfully at 13/12/2024 00:23:45.  Total time: 00:00:24,9986
+
+</buildStep>
+</shfbBuild>

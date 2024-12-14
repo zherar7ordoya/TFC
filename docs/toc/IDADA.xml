@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="699cd2d6-1481-41f2-ef8c-776ba4af1388.htm">Data<wbr />Manager</a>
+    </li>
+    <li>
+      <a href="4716d57c-9bd3-d6f5-6830-ea76a8abce94.htm">CRU&lt;T&gt;</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="98697111-956e-60f3-1428-74c9df757a2d" class="has-submenu" href="98697111-956e-60f3-1428-74c9df757a2d.htm">
+        <span data-tocFile="../toc/IDAADA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Constructores</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="f50a841d-b644-a721-285c-418d43185cb0" class="has-submenu" href="f50a841d-b644-a721-285c-418d43185cb0.htm">
+        <span data-tocFile="../toc/IDBADA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Métodos</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

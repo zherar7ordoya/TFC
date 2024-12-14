@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="8d39bca3-30d6-a43a-2694-24c67d6eac9b.htm">Service<wbr />Layer</a>
+    </li>
+    <li>
+      <a href="24f82a8a-b899-892f-f480-0c19a009e7b6.htm">Configuration<wbr />Service</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="cc5f1571-8c5d-dff9-5167-ce809df0dffa" class="has-submenu" href="cc5f1571-8c5d-dff9-5167-ce809df0dffa.htm">
+        <span data-tocFile="../toc/IDAIHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Propiedades</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="3de2a6c4-c021-aa4a-32b2-f4c21c1e5b88" class="has-submenu" href="3de2a6c4-c021-aa4a-32b2-f4c21c1e5b88.htm">
+        <span data-tocFile="../toc/IDBIHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Métodos</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

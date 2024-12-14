@@ -1,0 +1,331 @@
+﻿<!DOCTYPE html >
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" href="../css/bulma.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/presentationStyle.css" />
+    <link rel="stylesheet" href="../css/vs.min.css" />
+    <script src="../scripts/jquery-3.5.1.min.js"></script>
+    <script src="../scripts/clipboard.min.js"></script>
+    <script src="../scripts/highlight.min.js"></script>
+    <script src="../scripts/presentationStyle.js"></script>
+    <title>ServiceLayer Espacio de nombres</title>
+    <meta name="Title" content="ServiceLayer" />
+    <meta name="Help.Id" content="N:ServiceLayer" />
+    <meta name="Help.ContentType" content="Reference" />
+    <meta name="container" content="ServiceLayer" />
+    <meta name="guid" content="8d39bca3-30d6-a43a-2694-24c67d6eac9b" />
+    <meta name="tocFile" content="../toc/IDA.xml" />
+  </head>
+  <body>
+    <div class="fixedLayout">
+      <div id="Header" class="fixedHeader">
+        <div class="pageHeader level mb-0 py-2 px-4">
+          <div id="TitleContainer" class="level-left">
+            <div id="DocumentationTitle" class="level-item">A Sandcastle Documented Class Library</div>
+          </div>
+          <div id="LangFilterSearchContainer" class="level-right">
+            <div class="level-item">
+              <div class="dropdown is-hoverable">
+                <div class="dropdown-trigger">
+                  <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                    <span id="CurrentLanguage"></span>
+                    <span class="icon is-small">
+                      <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div>
+                <div class="dropdown-menu" role="menu">
+                  <div id="LanguageSelections" class="dropdown-content">
+                    <a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="level-item">
+              <form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;">
+                <div class="field">
+                  <div class="control has-icons-left">
+                    <input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" />
+                    <span class="icon is-small is-left">
+                      <i class="fa fa-search"></i>
+                    </span>
+                    <button id="SearchButton" type="submit" class="is-hidden"></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fixedContent">
+        <div id="HeaderPrelimContainer" class="level my-1 px-2">
+          <div id="PreliminaryContainer" class="level-left">
+            <div class="level-item">
+              <span class="tag is-warning is-medium">Ésta es documentación preliminar y está sujeta a cambios.</span>
+            </div>
+          </div>
+        </div>
+        <nav class="breadcrumb my-1 px-2 border-bottom" role="navigation">
+          <ul id="TopicBreadcrumbs" />
+        </nav>
+        <div id="ContentContainer" class="columns pl-5 pr-5 fixedContent">
+          <div id="ShowHideTOCColumn" class="column is-hidden-tablet">
+            <a id="ShowHideTOC">Show/Hide TOC</a>
+          </div>
+          <div id="TOCColumn" class="column is-hidden-mobile">
+            <nav class="toc">
+              <ul id="TableOfContents" class="toc-menu" />
+            </nav>
+          </div>
+          <div id="Resizer" class="is-hidden"></div>
+          <div id="TopicContent" class="column content is-7">
+            <h1>Service<wbr />Layer Espacio de nombres</h1>
+            <div class="summary"> </div>
+            <h2 class="quickLinkHeader">
+              <span class="icon toggleSection" tabindex="0">
+                <i class="fa fa-angle-down"></i>
+              </span>Clases</h2>
+            <div id="IDACASection">
+              <table id="classList" class="table is-hoverable">
+                <tr>
+                  <td>
+                    <a href="4f3cd69c-7f77-3c29-da02-b8146f319643.htm">AuditLogService</a>
+                  </td>
+                  <td>
+            Gestiona la persistencia de eventos de auditoría en la bitácora.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="7328d9a8-3411-934f-1768-6c42a6ec6c05.htm">AuthenticationService</a>
+                  </td>
+                  <td>
+            Servicio para manejar el login y logout de los empleados.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="d6bc4dc2-97df-0cdb-14b5-102dd4c402d9.htm">AuthorizationService</a>
+                  </td>
+                  <td>
+            Servicio de gestión de permisos. Implementa el patrón Composite.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="92c2e184-df56-2cb8-15e6-7c914e7452e9.htm">BackupService</a>
+                  </td>
+                  <td>
+            Servicio para realizar backups y restores de la base de datos.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="d42aec2b-e35f-e636-45fc-c3f950e6a7f4.htm">BitacoraSearch</a>
+                  </td>
+                  <td>
+            SearchService para Bitácora
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="2922cd1c-5fb3-1114-810e-ede787c1fa16.htm">BusquedaBase</a>
+                  </td>
+                  <td>
+            Formulario de búsqueda genérico.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="becae586-7921-5636-526a-13fea430d0dd.htm">ClienteSearch</a>
+                  </td>
+                  <td>SearchService para Cliente.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="a73e607b-ff08-8121-89f4-a40067e16155.htm">ComponentService</a>
+                  </td>
+                  <td>
+            Servicio que mapea desde un objeto hacia los componentes y viceversa.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="24f82a8a-b899-892f-f480-0c19a009e7b6.htm">ConfigurationService</a>
+                  </td>
+                  <td>
+            ConfiguracionService es una clase estática que se encarga de la lectura
+            y escritura de la configuración de la aplicación.
+            Uso: <div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs">ConfigurationService.Configuracion.[Propiedad]</code></pre></div></div></td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="59f84986-98a7-b7b5-a6a2-9b9b4b461bb1.htm">DataGridViewService</a>
+                  </td>
+                  <td>
+            DataGridViewService es una clase estática que provee métodos para trabajar con DataGridViews.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="12720c65-774b-f812-ee68-be28ee26706c.htm">EmpleadoSearch</a>
+                  </td>
+                  <td>SearchService para Empleado.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="2e120e79-09a4-e6cb-f018-e1f6d746403b.htm">EnumeratorService</a>
+                  </td>
+                  <td>
+            Conversor de enumeradores a descripciones y viceversa.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="0904619c-08f5-2b52-065f-8554cc513312.htm">ExceptionLogin</a>
+                  </td>
+                  <td>
+            Excepciones al servicio de LoginService.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="b8c1a5b0-076a-6f5d-d8c2-ecb3773d38d3.htm">ExceptionService</a>
+                  </td>
+                  <td>Servicio para manejar excepciones.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="f70111e7-208d-5a2a-7ad0-cead57f77dac.htm">FileHashService</a>
+                  </td>
+                  <td>
+            Servicio que implementa la encriptación SHA256 de hashes.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="dfda701f-df1a-3898-7e91-e79869888cd6.htm">FlagService</a>
+                  </td>
+                  <td>
+            Gestiona las banderas de inicio y finalización de la aplicación.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="49b602b0-8f66-1823-ec23-e1bbde1bdab7.htm">HtmlGeneratorService</a>
+                  </td>
+                  <td>Generador de archivos HTML para documentos de negocio.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="7ff6e7a9-79c0-7a82-d958-58e5fb4edecd.htm">HtmlVisorService</a>
+                  </td>
+                  <td>Formulario para visualizar/imprimir archivos HTML.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="d46436da-5a6c-6b1a-c431-0b158411bc47.htm">MessageBoxService</a>
+                  </td>
+                  <td>
+            Servicio para mostrar mensajes al usuario.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="29026b5b-0d3e-d425-0a24-4236030b2554.htm">PrinterService</a>
+                  </td>
+                  <td>
+            Esto se hace para implementar a "Impresora NULL" como una opción de impresora.
+            
+            USO
+            
+            Contenido HTML a imprimir:
+            <div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs">string htmlContent = "<html><body><h1>Documento de Prueba</h1><p>Este es un documento de prueba.</p></body></html>";</code></pre></div></div>
+            
+            Llamar al método para imprimir el documento:
+            <div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs">Impresora.ImprimirDocumento(htmlContent);</code></pre></div></div><br /><span class="tag is-danger">Obsoleto.</span></td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="2f7b366e-79f8-0587-b639-b0ea774bc65d.htm">RandomCredentialsService</a>
+                  </td>
+                  <td>Genera credenciales aleatorias para usuarios.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="9edea11c-4353-5b4c-e4c6-c993d34373ef.htm">RolSearch</a>
+                  </td>
+                  <td>
+            SearchService para Rol.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="5eb37ab5-8b1f-65f0-b6ba-56d96fbe9c77.htm">SearchService<span id="LST3E39D60A_0" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'"></span>T<span id="LST3E39D60A_1" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;"></span></a>
+                  </td>
+                  <td>
+            Servicio de búsqueda genérico.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="2f3579d4-01f7-b019-745a-fe205473aae1.htm">SessionService</a>
+                  </td>
+                  <td>
+            Servicio de gestión de sesiones. Implementa el patrón Singleton.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="84149a32-b4f2-96ef-eb0f-6bb50d64c76c.htm">ValidationService</a>
+                  </td>
+                  <td>
+            Servicio de validación que permite validar entidades de dominio.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="69eca427-ae5f-989c-ea5e-8a8728c15818.htm">XOREncryptionService</a>
+                  </td>
+                  <td>
+            Servicio que implementa la encriptación y desencriptación XOR de contraseñas.
+            </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div id="InThisArticleColumn" class="column is-hidden-mobile">
+            <nav class="menu sticky is-hidden">
+              <p class="menu-label">
+                <strong>In This Article</strong>
+              </p>
+              <ul id="InThisArticleMenu" class="menu-list">
+                <li>
+                  <a class="quickLink">Clases</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+hljs.highlightAll();
+});</script>
+  </body>
+</html>

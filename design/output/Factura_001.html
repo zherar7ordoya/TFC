@@ -1,0 +1,184 @@
+﻿
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+
+    <!-- *** Título de la página *** -->
+
+    <title>Factura Contado 001</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+
+        h2 {
+            color: #555;
+        }
+
+        .documento {
+            border: 1px solid #ddd;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .encabezado {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .encabezado img {
+            max-height: 80px;
+        }
+
+        .informacion {
+            margin-bottom: 30px;
+        }
+
+        .informacion p {
+            margin: 5px 0;
+        }
+
+        .detalle table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .detalle th, .detalle td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .detalle th {
+            background-color: #f2f2f2;
+        }
+
+        .totales {
+            text-align: right;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='documento'>
+
+        <!-- *** ENCABEZADO *** -->
+
+        <div class='encabezado'>
+
+            <!-- *** Incrustar la imagen como un recurso codificado en Base64 dentro del HTML *** -->
+
+            <img src='data:image/jpeg;base64,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' alt='La Mudadora' style='max-height: 80px;' />
+
+            <h1>Factura Contado 001</h1>
+            <p><strong>Fecha:</strong> lun. 09-diciembre-2024</p>
+            <p><strong>Cajero:</strong> Carolina Chasqui</p>
+
+        </div>
+
+        <div class='informacion'>
+            <br>
+            <h2>«La Mudadora» Empresa de Mudanzas</h2>
+            <p><strong>Dirección:</strong> Belgrano esq. Senador Pérez</p>
+            <p><strong>Teléfono:</strong> 1 (888) 512-1984</p>
+            <p><strong>CUIT:</strong> 20161760057</p>
+            <p><strong>IVA:</strong> Responsable Inscripto</p>
+
+            <!-- *** CLIENTE *** -->
+
+            <br>
+            <h2>Cliente</h2>
+
+            <p><strong>Nombre:</strong> Gerónimo A. Castellanos</p>
+            <p><strong>DNI:</strong> 34955710</p>
+            <p><strong>Dirección:</strong> Predio Libertad - Carolina Este 18.256 P3 D2</p>
+
+            <p><strong>Teléfono:</strong> +54 9 11 5471-8831</p>
+            <p><strong>Email:</strong> gcastellanos@mail.net</p>
+            <p><strong>IVA:</strong> ConsumidorFinal</p>
+            <p><strong>Tarifa:</strong> Particular</p>
+
+
+            <!-- *** TRAZABILIDAD *** -->
+
+            <br><br>
+            <table>
+                <tr>
+                    <td style="width: 16%;">ORDEN</td>
+                    <td style="width: 16%;">21</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- *** DETALLE *** -->
+
+        <div class='detalle'>
+            <h2>Detalle</h2>
+            <table>
+                <tr>
+                    <th>Fecha de mudanza</th>
+                    <td>vie. 20-diciembre-2024</td>
+                </tr>
+                <tr>
+                    <th>Origen</th>
+                    <td>Municipio Doctor Belgrano</td>
+                </tr>
+                <tr>
+                    <th>Destino</th>
+                    <td>Posta Sur</td>
+                </tr>
+                <tr>
+                    <th>Distancia</th>
+                    <td>750 kilómetros</td>
+                </tr>
+                <tr>
+                    <th>Domicilio de carga</th>
+                    <td>Pasaje Carolina Este 18256 Piso 3 Departamento 2</td>
+                </tr>
+                <tr>
+                    <th>Domicilio de descarga</th>
+                    <td>Cubero del Rey 1433 Barrio Puente Olvidado</td>
+                </tr>
+                <tr>
+                    <th>Observaciones</th>
+                    <td>Muebles sin embalaje. Disponibilidad horaria. Para la descarga, hay un garage externo cubierto (tipo americano), ahí se dejan los bultos.</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- *** TOTALES *** -->
+
+        <div class='totales'>
+            <br><br>
+            <table style="width: 100%;">
+                <tr>
+                    <td style="text-align: left; width: 33%;">Subtotal</td>
+                    <td style="text-align: left; width: 33%;">Impuesto</td>
+                    <td style="text-align: right; width: 33%;"><h2>Total</h2></td>
+                </tr>
+                <tr>
+                    <td style="text-align: left; width: 33%;">$ 1.769.250,00</td>
+                    <td style="text-align: left; width: 33%;">$ 176.925,00</td>
+                    <td style="text-align: right; width: 33%;"><h2>$ 1.946.175,00</h2></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="f37a6351-73fa-a0f1-addc-7b35190a2939.htm">Entity<wbr />Layer</a>
+    </li>
+    <li>
+      <a href="99be2fc5-a2d7-daeb-599c-00794bf5ef26.htm">Archivo</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="c1dd577f-75b7-298c-9bda-65d8a16f4804" href="c1dd577f-75b7-298c-9bda-65d8a16f4804.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="1f6d5daa-bc21-87be-9fbb-3e9d1ca87585" class="has-submenu" href="1f6d5daa-bc21-87be-9fbb-3e9d1ca87585.htm">
+        <span data-tocFile="../toc/IDBAEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Propiedades</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

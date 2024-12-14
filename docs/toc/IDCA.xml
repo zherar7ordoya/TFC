@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="42d0604c-0b0b-bb78-410f-1b61ab31c596.htm">Data<wbr />Access</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="52ba67b4-56be-1dce-1972-e7385113c038" class="has-submenu" href="52ba67b4-56be-1dce-1972-e7385113c038.htm">
+        <span data-tocFile="../toc/IDACA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Persistidor<wbr />Xml&lt;T&gt;</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

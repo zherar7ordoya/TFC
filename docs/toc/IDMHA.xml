@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="8d39bca3-30d6-a43a-2694-24c67d6eac9b.htm">Service<wbr />Layer</a>
+    </li>
+    <li>
+      <a href="0904619c-08f5-2b52-065f-8554cc513312.htm">Exception<wbr />Login</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="5f918b3d-50d2-7e86-a971-07ace4539154" href="5f918b3d-50d2-7e86-a971-07ace4539154.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="dc1cd9f0-4cb4-c9aa-2eec-9accc6b647d4" class="has-submenu" href="dc1cd9f0-4cb4-c9aa-2eec-9accc6b647d4.htm">
+        <span data-tocFile="../toc/IDBMHA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Propiedades</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

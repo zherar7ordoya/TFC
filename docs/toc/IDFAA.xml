@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="adc42a6b-48bf-b91c-39de-6b18bedd2d4f.htm">Abstract<wbr />Layer</a>
+    </li>
+    <li>
+      <a href="751d18fa-4798-7c65-ab7c-71c77ba0e452.htm">IBitacora</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="9b3376b2-b20c-36e0-5c0a-565042c08d50" class="has-submenu" href="9b3376b2-b20c-36e0-5c0a-565042c08d50.htm">
+        <span data-tocFile="../toc/IDAFAA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Propiedades</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="83ab24d1-fcc8-5855-d376-4321858ed880" class="has-submenu" href="83ab24d1-fcc8-5855-d376-4321858ed880.htm">
+        <span data-tocFile="../toc/IDBFAA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Métodos</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

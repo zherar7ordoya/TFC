@@ -1,0 +1,282 @@
+﻿<!DOCTYPE html >
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" href="../css/bulma.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/presentationStyle.css" />
+    <link rel="stylesheet" href="../css/vs.min.css" />
+    <script src="../scripts/jquery-3.5.1.min.js"></script>
+    <script src="../scripts/clipboard.min.js"></script>
+    <script src="../scripts/highlight.min.js"></script>
+    <script src="../scripts/presentationStyle.js"></script>
+    <title>Orden Clase</title>
+    <meta name="Title" content="Orden" />
+    <meta name="Help.Id" content="T:EntityLayer.Orden" />
+    <meta name="Help.ContentType" content="Reference" />
+    <meta name="container" content="EntityLayer" />
+    <meta name="guid" content="4f5de059-5be3-4dfd-2f82-c57ccc46c24c" />
+    <meta name="Description" content="Clase que representa una orden de mudanza." />
+    <meta name="tocFile" content="../toc/IDEA.xml" />
+  </head>
+  <body>
+    <div class="fixedLayout">
+      <div id="Header" class="fixedHeader">
+        <div class="pageHeader level mb-0 py-2 px-4">
+          <div id="TitleContainer" class="level-left">
+            <div id="DocumentationTitle" class="level-item">A Sandcastle Documented Class Library</div>
+          </div>
+          <div id="LangFilterSearchContainer" class="level-right">
+            <div class="level-item">
+              <div class="dropdown is-hoverable">
+                <div class="dropdown-trigger">
+                  <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                    <span id="CurrentLanguage"></span>
+                    <span class="icon is-small">
+                      <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div>
+                <div class="dropdown-menu" role="menu">
+                  <div id="LanguageSelections" class="dropdown-content">
+                    <a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="level-item">
+              <form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;">
+                <div class="field">
+                  <div class="control has-icons-left">
+                    <input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" />
+                    <span class="icon is-small is-left">
+                      <i class="fa fa-search"></i>
+                    </span>
+                    <button id="SearchButton" type="submit" class="is-hidden"></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fixedContent">
+        <div id="HeaderPrelimContainer" class="level my-1 px-2">
+          <div id="PreliminaryContainer" class="level-left">
+            <div class="level-item">
+              <span class="tag is-warning is-medium">Ésta es documentación preliminar y está sujeta a cambios.</span>
+            </div>
+          </div>
+        </div>
+        <nav class="breadcrumb my-1 px-2 border-bottom" role="navigation">
+          <ul id="TopicBreadcrumbs" />
+        </nav>
+        <div id="ContentContainer" class="columns pl-5 pr-5 fixedContent">
+          <div id="ShowHideTOCColumn" class="column is-hidden-tablet">
+            <a id="ShowHideTOC">Show/Hide TOC</a>
+          </div>
+          <div id="TOCColumn" class="column is-hidden-mobile">
+            <nav class="toc">
+              <ul id="TableOfContents" class="toc-menu" />
+            </nav>
+          </div>
+          <div id="Resizer" class="is-hidden"></div>
+          <div id="TopicContent" class="column content is-7">
+            <h1>Orden Clase</h1>
+            <div class="summary">Clase que representa una orden de mudanza.</div>
+            <h2 class="quickLinkHeader">
+              <span class="icon toggleSection" tabindex="0">
+                <i class="fa fa-angle-down"></i>
+              </span>Definition</h2>
+            <div id="IDBSection">
+              <strong>Espacio de nombres:</strong> <a href="f37a6351-73fa-a0f1-addc-7b35190a2939.htm">EntityLayer</a><br /><strong>Ensamblado:</strong> EntityLayer (en EntityLayer.dll) Versión: 1.0.0.0 (1.0.0.0)<div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="keyword">class</span> <span class="identifier">Orden</span> : <span class="identifier">EntidadPersistente</span>, <span class="identifier">IValidatableObject</span></code></pre></div></div><dl class="inheritanceHierarchy"><dt>Inheritance</dt><dd><a href="https://learn.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <a href="e9d8d943-43cd-4b3b-530d-c2693b61416a.htm">EntidadPersistente</a>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="selflink">Orden</span></dd></dl><dl class="implementsList"><dt>Implements</dt><dd><a href="https://learn.microsoft.com/dotnet/api/system.componentmodel.dataannotations.ivalidatableobject" target="_blank" rel="noopener noreferrer">IValidatableObject</a></dd></dl></div>
+            <h2 class="quickLinkHeader">
+              <span class="icon toggleSection" tabindex="0">
+                <i class="fa fa-angle-down"></i>
+              </span>Constructores</h2>
+            <div id="IDAFASection">
+              <table id="ConstructorList" class="table is-hoverable">
+                <tr>
+                  <td>
+                    <a href="6a3238d7-5e54-578c-8bbc-7777cb70f786.htm">Orden</a>
+                  </td>
+                  <td>Inicializa una nueva instancia de la clase <span class="selflink">Orden</span></td>
+                </tr>
+              </table>
+            </div>
+            <h2 class="quickLinkHeader">
+              <span class="icon toggleSection" tabindex="0">
+                <i class="fa fa-angle-down"></i>
+              </span>Propiedades</h2>
+            <div id="IDDFASection">
+              <table id="PropertyList" class="table is-hoverable">
+                <tr>
+                  <td>
+                    <a href="418ab3bb-fd35-57d8-2c04-9a1f806e43d3.htm">Camion</a>
+                  </td>
+                  <td>Camión.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="bdc5339a-2eb6-f1c0-564c-bb9c3da9013a.htm">Cliente</a>
+                  </td>
+                  <td>Cliente que solicita la mudanza.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="fbb9de63-5999-8487-36a8-5a53b0bc1164.htm">Comisionable</a>
+                  </td>
+                  <td>Booleano que indica si la orden es comisionable o no.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="772f6d12-b602-3746-c977-35ea87237b8a.htm">Cotizacion</a>
+                  </td>
+                  <td>Monto total de la orden.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="f4f9ccd2-6bb7-fa4e-3313-9f66ecaf20e9.htm">Destino</a>
+                  </td>
+                  <td>Locación de destino de la mudanza.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="fa5c0360-5d7c-4729-7dad-8b521cd7a3eb.htm">Distancia</a>
+                  </td>
+                  <td>Distancia entre el origen y el destino de la mudanza.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="8d327aa6-0ac7-b773-970b-2bb241b0b5b6.htm">Estado</a>
+                  </td>
+                  <td>Estado actual de la orden.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="c191fbc0-c252-baf2-8612-acbdd156c50e.htm">Fecha</a>
+                  </td>
+                  <td>Fecha en la que se creó la orden.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="de02d4f1-8a8d-f5f7-8dfc-c623fc00e68c.htm">FechaMudanza</a>
+                  </td>
+                  <td>Fecha en la que se realizará la mudanza.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="5566c4a0-8bc5-0cda-4e24-275bb30cec37.htm">Items</a>
+                  </td>
+                  <td>Lista de ítems a ser transportados.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="995ee9f7-c383-ff57-83d1-02c0469fe608.htm">LugarCarga</a>
+                  </td>
+                  <td>Dirección en origen de carga.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="c525c736-7e99-afb3-f535-0ce6de7e54c3.htm">LugarDescarga</a>
+                  </td>
+                  <td>Dirección en destino de descarga.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="88d2d867-a832-5eff-32ee-2ec9d596995e.htm">Observaciones</a>
+                  </td>
+                  <td>Anotaciones adicionales que hacen al servicio.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="21491165-0251-4b67-a5ec-909a699953da.htm">Operador</a>
+                  </td>
+                  <td>Nombre del empleado que creó la orden.</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="5950b122-d62a-c8d6-3256-ce9bcd16e36f.htm">Origen</a>
+                  </td>
+                  <td>Locación de origen de la mudanza.</td>
+                </tr>
+              </table>
+            </div>
+            <h2 class="quickLinkHeader">
+              <span class="icon toggleSection" tabindex="0">
+                <i class="fa fa-angle-down"></i>
+              </span>Métodos</h2>
+            <div id="IDBFASection">
+              <table id="MethodList" class="table is-hoverable">
+                <tr>
+                  <td>
+                    <a href="d843f559-f33f-1a36-c4ac-45a8bda3d5cf.htm">ToString</a>
+                  </td>
+                  <td>Devuelve una representación en cadena de la orden.<br />(Reemplaza a <a href="https://learn.microsoft.com/dotnet/api/system.object.tostring" target="_blank" rel="noopener noreferrer">Object<span id="LSTE5DB576E_0" data-languageSpecificText="cs=.|vb=.|cpp=::|nu=.|fs=."></span>ToString<span id="LSTE5DB576E_1" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a>)</td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="00b45887-4728-9574-a6ca-b5cbebd48817.htm">Validate</a>
+                  </td>
+                  <td>
+            Forma de validar que una lista de ítems tenga al menos un ítem.
+            </td>
+                </tr>
+              </table>
+            </div>
+            <h2 class="quickLinkHeader">
+              <span class="icon toggleSection" tabindex="0">
+                <i class="fa fa-angle-down"></i>
+              </span>Vea también</h2>
+            <div id="seeAlsoSection">
+              <h4>Referencia</h4>
+              <div>
+                <a href="f37a6351-73fa-a0f1-addc-7b35190a2939.htm">Espacio de nombres EntityLayer</a>
+              </div>
+            </div>
+          </div>
+          <div id="InThisArticleColumn" class="column is-hidden-mobile">
+            <nav class="menu sticky is-hidden">
+              <p class="menu-label">
+                <strong>In This Article</strong>
+              </p>
+              <ul id="InThisArticleMenu" class="menu-list">
+                <li>
+                  <a class="quickLink">Definition</a>
+                </li>
+                <li>
+                  <a class="quickLink">Constructores</a>
+                </li>
+                <li>
+                  <a class="quickLink">Propiedades</a>
+                </li>
+                <li>
+                  <a class="quickLink">Métodos</a>
+                </li>
+                <li>
+                  <a class="quickLink">Vea también</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+hljs.highlightAll();
+});</script>
+  </body>
+</html>

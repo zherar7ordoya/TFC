@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="f540ac22-8407-13c4-2935-10da6f0f5964.htm">Logic<wbr />Layer</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="43104be5-d24d-bbf8-3c1a-2a25eead7401" class="has-submenu" href="43104be5-d24d-bbf8-3c1a-2a25eead7401.htm">
+        <span data-tocFile="../toc/IDAFA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Capturador<wbr />Logic</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="8d68e74d-697d-b7bc-13c7-01a28b0b7f72" class="has-submenu" href="8d68e74d-697d-b7bc-13c7-01a28b0b7f72.htm">
+        <span data-tocFile="../toc/IDBFA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Dashboard<wbr />Logic</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="5593e5e7-2898-524f-f076-61202db9ff2c" class="has-submenu" href="5593e5e7-2898-524f-f076-61202db9ff2c.htm">
+        <span data-tocFile="../toc/IDCFA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Despachador<wbr />Logic</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="914eb46f-aff4-9ada-98ba-d5da0aa4dfdf" class="has-submenu" href="914eb46f-aff4-9ada-98ba-d5da0aa4dfdf.htm">
+        <span data-tocFile="../toc/IDDFA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Facturador<wbr />Logic</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="b0d0f3fe-0949-8113-7cc7-ef2f07dd0af9" class="has-submenu" href="b0d0f3fe-0949-8113-7cc7-ef2f07dd0af9.htm">
+        <span data-tocFile="../toc/IDEFA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Liquidador<wbr />Logic</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="6d14bc70-19dd-a852-8d78-4c5a217dd339" class="has-submenu" href="6d14bc70-19dd-a852-8d78-4c5a217dd339.htm">
+        <span data-tocFile="../toc/IDFFA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Logic<wbr />CRU&lt;T&gt;</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

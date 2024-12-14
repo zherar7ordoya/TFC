@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="adc42a6b-48bf-b91c-39de-6b18bedd2d4f.htm">Abstract<wbr />Layer</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="2b1a8032-d81f-80b2-8b8f-dce32903901b" href="2b1a8032-d81f-80b2-8b8f-dce32903901b.htm">Condicion<wbr />Fiscal<wbr />Enum</a>
+    </li>
+    <li>
+      <a id="e9d8d943-43cd-4b3b-530d-c2693b61416a" class="has-submenu" href="e9d8d943-43cd-4b3b-530d-c2693b61416a.htm">
+        <span data-tocFile="../toc/IDBAA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Entidad<wbr />Persistente</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="81e51014-5a7c-029b-fbfb-3a03c314be72" href="81e51014-5a7c-029b-fbfb-3a03c314be72.htm">Estado<wbr />Enum</a>
+    </li>
+    <li>
+      <a id="efed391a-f784-854f-aec7-fc08aab48975" href="efed391a-f784-854f-aec7-fc08aab48975.htm">Evento<wbr />Enum</a>
+    </li>
+    <li>
+      <a id="90a1a372-a851-241e-929e-d495d5464654" class="has-submenu" href="90a1a372-a851-241e-929e-d495d5464654.htm">
+        <span data-tocFile="../toc/IDEAA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Generic<wbr />Factory</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="751d18fa-4798-7c65-ab7c-71c77ba0e452" class="has-submenu" href="751d18fa-4798-7c65-ab7c-71c77ba0e452.htm">
+        <span data-tocFile="../toc/IDFAA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>IBitacora</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="86a42c4b-6371-a218-4453-eefbd32ab5b0" class="has-submenu" href="86a42c4b-6371-a218-4453-eefbd32ab5b0.htm">
+        <span data-tocFile="../toc/IDGAA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>IBuscable&lt;T&gt;</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="8f1811e5-77f8-836e-fe6c-58f4a1a57629" class="has-submenu" href="8f1811e5-77f8-836e-fe6c-58f4a1a57629.htm">
+        <span data-tocFile="../toc/IDHAA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>ICRU&lt;T&gt;</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="32fd1f97-4e70-7f37-60b4-d4c6d4155558" class="has-submenu" href="32fd1f97-4e70-7f37-60b4-d4c6d4155558.htm">
+        <span data-tocFile="../toc/IDIAA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>IEntidad<wbr />Persistente</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="96b1a281-812e-1644-4443-c878ac532560" class="has-submenu" href="96b1a281-812e-1644-4443-c878ac532560.htm">
+        <span data-tocFile="../toc/IDJAA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>IPersistidor&lt;T&gt;</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="f0004095-cc54-6641-9a16-35be6bd5fc80" href="f0004095-cc54-6641-9a16-35be6bd5fc80.htm">Login<wbr />Enum</a>
+    </li>
+    <li>
+      <a id="92396f84-a88a-3d39-5d26-6e3ab35c1a17" href="92396f84-a88a-3d39-5d26-6e3ab35c1a17.htm">Nivel<wbr />Tarifario<wbr />Enum</a>
+    </li>
+    <li>
+      <a id="a9305ac8-5e2d-0a42-5ead-becf2022df0e" href="a9305ac8-5e2d-0a42-5ead-becf2022df0e.htm">Permiso<wbr />Enum</a>
+    </li>
+    <li>
+      <a id="1b86803d-cc8f-7079-02ed-0d659f9dfa61" href="1b86803d-cc8f-7079-02ed-0d659f9dfa61.htm">Puesto<wbr />Enum</a>
+    </li>
+  </tocItems>
+</toc>

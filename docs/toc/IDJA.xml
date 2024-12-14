@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="2ccbf576-c0ad-ae1b-8ce9-b32ef862ff50.htm">View<wbr />Layer</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="93f5a05e-e4ce-836b-8c30-15d13f915be9" class="has-submenu" href="93f5a05e-e4ce-836b-8c30-15d13f915be9.htm">
+        <span data-tocFile="../toc/IDAJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Admin<wbr />Auth<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="f7871476-9a39-c77e-ab81-a89aac79ca6f" class="has-submenu" href="f7871476-9a39-c77e-ab81-a89aac79ca6f.htm">
+        <span data-tocFile="../toc/IDBJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Ayuda<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="dececb4f-63ab-ca2e-50b4-d04204502828" class="has-submenu" href="dececb4f-63ab-ca2e-50b4-d04204502828.htm">
+        <span data-tocFile="../toc/IDCJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Backup<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="aa387728-66da-a148-d5d4-85aaa1b85a4f" class="has-submenu" href="aa387728-66da-a148-d5d4-85aaa1b85a4f.htm">
+        <span data-tocFile="../toc/IDDJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Base<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="a6c8711b-4b7b-aa10-7609-a75c1d42988b" class="has-submenu" href="a6c8711b-4b7b-aa10-7609-a75c1d42988b.htm">
+        <span data-tocFile="../toc/IDEJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Bitacora<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="ecaa0d63-cd8d-fb31-8a8c-f44c4f6b4bcc" class="has-submenu" href="ecaa0d63-cd8d-fb31-8a8c-f44c4f6b4bcc.htm">
+        <span data-tocFile="../toc/IDFJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Camiones<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="db326b53-daa9-4806-f5af-6d7d4cb3a6e5" class="has-submenu" href="db326b53-daa9-4806-f5af-6d7d4cb3a6e5.htm">
+        <span data-tocFile="../toc/IDGJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Capturador<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="d1dcadac-92ae-d84b-7e7b-7ca7b98d0d26" class="has-submenu" href="d1dcadac-92ae-d84b-7e7b-7ca7b98d0d26.htm">
+        <span data-tocFile="../toc/IDHJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Clientes<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="7635ba16-2362-03e2-0c79-da3ce926e16d" class="has-submenu" href="7635ba16-2362-03e2-0c79-da3ce926e16d.htm">
+        <span data-tocFile="../toc/IDIJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Configuracion<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="d0362eb2-87e5-5979-7162-d69e454f6b4e" class="has-submenu" href="d0362eb2-87e5-5979-7162-d69e454f6b4e.htm">
+        <span data-tocFile="../toc/IDJJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Dashboard<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="edc553e8-ebd0-fa8d-ee45-253a148a4337" class="has-submenu" href="edc553e8-ebd0-fa8d-ee45-253a148a4337.htm">
+        <span data-tocFile="../toc/IDKJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Despachador<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="34f5196b-4b8b-3efa-b4ae-7d69696b2330" class="has-submenu" href="34f5196b-4b8b-3efa-b4ae-7d69696b2330.htm">
+        <span data-tocFile="../toc/IDLJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Empleados<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="245ab8b7-44c4-722f-fbfc-50a611c4f38e" class="has-submenu" href="245ab8b7-44c4-722f-fbfc-50a611c4f38e.htm">
+        <span data-tocFile="../toc/IDMJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Facturador<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="507d5c6f-c3c9-5990-67c0-e072f8f7a2ae" class="has-submenu" href="507d5c6f-c3c9-5990-67c0-e072f8f7a2ae.htm">
+        <span data-tocFile="../toc/IDNJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Liquidador<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="3331c9d1-72ba-954c-33f9-5e2e949fe48f" class="has-submenu" href="3331c9d1-72ba-954c-33f9-5e2e949fe48f.htm">
+        <span data-tocFile="../toc/IDOJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Locaciones<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="f451c3b8-88dc-1338-440f-0c3e3d90109a" class="has-submenu" href="f451c3b8-88dc-1338-440f-0c3e3d90109a.htm">
+        <span data-tocFile="../toc/IDPJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Login<wbr />Acceso<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="3ec5ae36-0e68-6433-50b4-c8579b1b1658" class="has-submenu" href="3ec5ae36-0e68-6433-50b4-c8579b1b1658.htm">
+        <span data-tocFile="../toc/IDQJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Login<wbr />Cambio<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="526cb170-8a9a-be3e-98bd-29087b9a01ac" class="has-submenu" href="526cb170-8a9a-be3e-98bd-29087b9a01ac.htm">
+        <span data-tocFile="../toc/IDRJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Login<wbr />Olvido<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="0fba24fc-acbd-32ca-a356-30103ab5a142" class="has-submenu" href="0fba24fc-acbd-32ca-a356-30103ab5a142.htm">
+        <span data-tocFile="../toc/IDSJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Menu<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="8358ee49-9b1e-cd78-e87e-1d173667b1ab" class="has-submenu" href="8358ee49-9b1e-cd78-e87e-1d173667b1ab.htm">
+        <span data-tocFile="../toc/IDTJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Permisos<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="ff327be7-b3d0-c6d9-21e7-e7607f7a0ed6" class="has-submenu" href="ff327be7-b3d0-c6d9-21e7-e7607f7a0ed6.htm">
+        <span data-tocFile="../toc/IDUJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Restore<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="da2b6044-6631-2e3e-f0c0-484179c38344" class="has-submenu" href="da2b6044-6631-2e3e-f0c0-484179c38344.htm">
+        <span data-tocFile="../toc/IDVJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Roles<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="59d40577-ad2c-d3b2-c25a-6004e9baf8e9" class="has-submenu" href="59d40577-ad2c-d3b2-c25a-6004e9baf8e9.htm">
+        <span data-tocFile="../toc/IDWJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Splash<wbr />Screen</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="b194b884-ef6b-2302-be98-df64148f4d6b" class="has-submenu" href="b194b884-ef6b-2302-be98-df64148f4d6b.htm">
+        <span data-tocFile="../toc/IDXJA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Tarifas<wbr />Form</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

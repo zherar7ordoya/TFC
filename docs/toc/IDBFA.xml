@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="f540ac22-8407-13c4-2935-10da6f0f5964.htm">Logic<wbr />Layer</a>
+    </li>
+    <li>
+      <a href="8d68e74d-697d-b7bc-13c7-01a28b0b7f72.htm">Dashboard<wbr />Logic</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="9832d668-316f-94e6-4841-7609699b3622" href="9832d668-316f-94e6-4841-7609699b3622.htm">Constructor</a>
+    </li>
+    <li>
+      <a id="a6fff430-8cf1-feb9-8ef1-8b1bc0510aed" class="has-submenu" href="a6fff430-8cf1-feb9-8ef1-8b1bc0510aed.htm">
+        <span data-tocFile="../toc/IDBBFA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Métodos</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

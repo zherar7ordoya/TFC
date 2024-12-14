@@ -1,0 +1,22 @@
+#
+# Ignorar archivos temporales de Visual Studio
+#
+*.suo
+*.user
+*.sln.docstates
+*.tmp
+*.log
+**/[Local]
+**/~$*
+**/.vs/
+
+#
+# Ignorar bin y obj en cualquier subcarpeta
+#
+**/bin/
+**/obj/
+
+#
+# Ignorar paquetes de NuGet
+#
+packages/

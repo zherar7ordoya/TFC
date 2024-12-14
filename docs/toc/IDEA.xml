@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <breadcrumbs>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">Docs</a>
+    </li>
+    <li>
+      <a href="d75eb659-6335-53f6-af7a-81814a21ab7f.htm">La Mudadora</a>
+    </li>
+    <li>
+      <a href="f37a6351-73fa-a0f1-addc-7b35190a2939.htm">Entity<wbr />Layer</a>
+    </li>
+  </breadcrumbs>
+  <tocItems>
+    <li>
+      <a id="99be2fc5-a2d7-daeb-599c-00794bf5ef26" class="has-submenu" href="99be2fc5-a2d7-daeb-599c-00794bf5ef26.htm">
+        <span data-tocFile="../toc/IDAEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Archivo</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="4f86524d-5197-5982-f8f6-14db7e75d999" class="has-submenu" href="4f86524d-5197-5982-f8f6-14db7e75d999.htm">
+        <span data-tocFile="../toc/IDBEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Autorizacion</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="419d8fee-8021-64fa-1900-9b4181168ed7" class="has-submenu" href="419d8fee-8021-64fa-1900-9b4181168ed7.htm">
+        <span data-tocFile="../toc/IDCEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Bitacora</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="53ff50e6-28ce-ce48-b251-f4f5f61a9b39" class="has-submenu" href="53ff50e6-28ce-ce48-b251-f4f5f61a9b39.htm">
+        <span data-tocFile="../toc/IDDEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Camion</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="f8b7ba45-e3a8-e2c5-2225-0f445a680428" class="has-submenu" href="f8b7ba45-e3a8-e2c5-2225-0f445a680428.htm">
+        <span data-tocFile="../toc/IDEEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Cliente</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="f65a0d0f-20d0-fd16-ef0f-6635a4da720d" class="has-submenu" href="f65a0d0f-20d0-fd16-ef0f-6635a4da720d.htm">
+        <span data-tocFile="../toc/IDFEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Coeficiente</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="79a1e159-655c-3d8a-637a-152d87f097a2" class="has-submenu" href="79a1e159-655c-3d8a-637a-152d87f097a2.htm">
+        <span data-tocFile="../toc/IDGEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Comprobante</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="ce60abec-97ef-080a-1d5b-21e12a9696cf" class="has-submenu" href="ce60abec-97ef-080a-1d5b-21e12a9696cf.htm">
+        <span data-tocFile="../toc/IDHEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Configuracion</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="8ea7eed0-d2c7-8a20-5e6f-3254e418ee1c" class="has-submenu" href="8ea7eed0-d2c7-8a20-5e6f-3254e418ee1c.htm">
+        <span data-tocFile="../toc/IDIEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Despacho</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="32fc9c5b-2c2e-c536-3f5e-28688d87772e" class="has-submenu" href="32fc9c5b-2c2e-c536-3f5e-28688d87772e.htm">
+        <span data-tocFile="../toc/IDJEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Empleado</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="da7dbbb2-8086-63b7-bd85-24729dd54280" class="has-submenu" href="da7dbbb2-8086-63b7-bd85-24729dd54280.htm">
+        <span data-tocFile="../toc/IDKEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Factura</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="74622f99-3f9f-058d-e77f-be34fdd8d21f" class="has-submenu" href="74622f99-3f9f-058d-e77f-be34fdd8d21f.htm">
+        <span data-tocFile="../toc/IDLEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Liquidacion</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="cf794267-a55f-3959-37b1-1f41c44ef392" class="has-submenu" href="cf794267-a55f-3959-37b1-1f41c44ef392.htm">
+        <span data-tocFile="../toc/IDMEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Locacion</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="4f5de059-5be3-4dfd-2f82-c57ccc46c24c" class="has-submenu" href="4f5de059-5be3-4dfd-2f82-c57ccc46c24c.htm">
+        <span data-tocFile="../toc/IDNEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Orden</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="c6258e61-24eb-a77f-9595-9709af5391b7" class="has-submenu" href="c6258e61-24eb-a77f-9595-9709af5391b7.htm">
+        <span data-tocFile="../toc/IDOEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Permiso</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="8c94cbb9-2917-f799-21d7-3713012e2772" class="has-submenu" href="8c94cbb9-2917-f799-21d7-3713012e2772.htm">
+        <span data-tocFile="../toc/IDPEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Persona<wbr />Fisica</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="21c98f21-fb81-cbcc-99ca-386b33a9bd5e" class="has-submenu" href="21c98f21-fb81-cbcc-99ca-386b33a9bd5e.htm">
+        <span data-tocFile="../toc/IDQEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Persona<wbr />Juridica</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="2ba04cd8-e5d6-a86e-c20b-28b35de3a1c9" class="has-submenu" href="2ba04cd8-e5d6-a86e-c20b-28b35de3a1c9.htm">
+        <span data-tocFile="../toc/IDREA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Rol</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="9b8ade32-8b79-fcfe-6931-5c3819a2bcc1" class="has-submenu" href="9b8ade32-8b79-fcfe-6931-5c3819a2bcc1.htm">
+        <span data-tocFile="../toc/IDSEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Tarifa</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+    <li>
+      <a id="e91ae330-aa48-5960-5dc5-8732f9108988" class="has-submenu" href="e91ae330-aa48-5960-5dc5-8732f9108988.htm">
+        <span data-tocFile="../toc/IDTEA.xml" class="icon toggle" onclick="ToggleExpandCollapse(this); return false;">
+          <i class="fa fa-angle-right"> </i>
+        </span>Transaccion</a>
+      <ul class="toc-menu is-hidden"> </ul>
+    </li>
+  </tocItems>
+</toc>

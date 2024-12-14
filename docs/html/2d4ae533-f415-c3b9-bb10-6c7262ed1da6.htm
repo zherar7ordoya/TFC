@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html >
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="../icons/favicon.ico" />
+    <link rel="stylesheet" href="../css/bulma.css" />
+    <link rel="stylesheet" href="../css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/presentationStyle.css" />
+    <link rel="stylesheet" href="../css/vs.min.css" />
+    <script src="../scripts/jquery-3.5.1.min.js"></script>
+    <script src="../scripts/clipboard.min.js"></script>
+    <script src="../scripts/highlight.min.js"></script>
+    <script src="../scripts/presentationStyle.js"></script>
+    <title>Configuracion Propiedades</title>
+    <meta name="Title" content="Propiedades" />
+    <meta name="Help.Id" content="Properties.T:EntityLayer.Configuracion" />
+    <meta name="Help.ContentType" content="Reference" />
+    <meta name="container" content="EntityLayer" />
+    <meta name="guid" content="2d4ae533-f415-c3b9-bb10-6c7262ed1da6" />
+    <meta name="tocFile" content="../toc/IDHEA.xml" />
+  </head>
+  <body>
+    <div class="fixedLayout">
+      <div id="Header" class="fixedHeader">
+        <div class="pageHeader level mb-0 py-2 px-4">
+          <div id="TitleContainer" class="level-left">
+            <div id="DocumentationTitle" class="level-item">A Sandcastle Documented Class Library</div>
+          </div>
+          <div id="LangFilterSearchContainer" class="level-right">
+            <div class="level-item">
+              <div class="dropdown is-hoverable">
+                <div class="dropdown-trigger">
+                  <button class="button" aria-haspopup="true" aria-controls="dropdown-menu">
+                    <span id="CurrentLanguage"></span>
+                    <span class="icon is-small">
+                      <i class="fa fa-angle-down" aria-hidden="true"></i>
+                    </span>
+                  </button>
+                </div>
+                <div class="dropdown-menu" role="menu">
+                  <div id="LanguageSelections" class="dropdown-content">
+                    <a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="level-item">
+              <form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;">
+                <div class="field">
+                  <div class="control has-icons-left">
+                    <input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" />
+                    <span class="icon is-small is-left">
+                      <i class="fa fa-search"></i>
+                    </span>
+                    <button id="SearchButton" type="submit" class="is-hidden"></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="fixedContent">
+        <div id="HeaderPrelimContainer" class="level my-1 px-2">
+          <div id="PreliminaryContainer" class="level-left">
+            <div class="level-item">
+              <span class="tag is-warning is-medium">Ésta es documentación preliminar y está sujeta a cambios.</span>
+            </div>
+          </div>
+        </div>
+        <nav class="breadcrumb my-1 px-2 border-bottom" role="navigation">
+          <ul id="TopicBreadcrumbs" />
+        </nav>
+        <div id="ContentContainer" class="columns pl-5 pr-5 fixedContent">
+          <div id="ShowHideTOCColumn" class="column is-hidden-tablet">
+            <a id="ShowHideTOC">Show/Hide TOC</a>
+          </div>
+          <div id="TOCColumn" class="column is-hidden-mobile">
+            <nav class="toc">
+              <ul id="TableOfContents" class="toc-menu" />
+            </nav>
+          </div>
+          <div id="Resizer" class="is-hidden"></div>
+          <div id="TopicContent" class="column content is-7">
+            <h1>Configuracion Propiedades</h1>
+            <h2 class="quickLinkHeader">
+              <span class="icon toggleSection" tabindex="0">
+                <i class="fa fa-angle-down"></i>
+              </span>Propiedades</h2>
+            <div id="IDADASection">
+              <table id="PropertyList" class="table is-hoverable">
+                <tr>
+                  <td>
+                    <a href="e6fcf228-4943-fbb3-7db2-11b5006e028c.htm">ArchivoExit</a>
+                  </td>
+                  <td>
+            Archivo de salida de la aplicación.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="031fc15b-c6ae-d1e8-9a51-9c3a8933e7f9.htm">ArchivoStart</a>
+                  </td>
+                  <td>
+            Archivo de inicio de la aplicación.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="9215ba7a-0667-3b3c-f454-b274a5f4219b.htm">CarpetaBackup</a>
+                  </td>
+                  <td>
+            Carpeta de copias de seguridad de la aplicación.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="4cc2a3f7-0418-cc5a-fda8-d659b5f9f520.htm">CarpetaBase</a>
+                  </td>
+                  <td>
+            Carpeta base de la aplicación.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="d9853049-a705-1dfc-ca66-aada69ba3d67.htm">CarpetaData</a>
+                  </td>
+                  <td>
+            Carpeta de datos de la aplicación (base de datos).
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="778c3611-7d76-7704-7889-79f48d42ee97.htm">CarpetaDocumentos</a>
+                  </td>
+                  <td>
+            Carpeta de documentos de la aplicación.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="8c532c1a-0f44-45f5-7301-cb93cee049b4.htm">ContraseñaClaveXOR</a>
+                  </td>
+                  <td>
+            Clave de ofuscación de la contraseña.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="74736cfd-194b-ea8c-0b2e-3edcd019e06f.htm">ContraseñaDiasVigencia</a>
+                  </td>
+                  <td>
+            Días de vigencia de la contraseña.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="71a546cc-5abb-808f-4c73-e79504557044.htm">ContraseñaIntentosFallidos</a>
+                  </td>
+                  <td>
+            Límite de veces que se puede intentar ingresar una contraseña incorrecta.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="aba42cae-fa22-815f-5599-411acbf801a6.htm">ContraseñaRegEx</a>
+                  </td>
+                  <td>
+            RegEx para validar la contraseña. 
+            Debe estar coordinado con RandomCredentialsService.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="4f25de31-2117-6968-5ae0-2cdc7445059a.htm">EmpresaCondicionIVA</a>
+                  </td>
+                  <td>
+            Condición tributaria de la empresa ante el Impuesto al Valor Agregado (IVA).
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="5a6a131a-2aa6-98df-f2cd-58a8d14257dc.htm">EmpresaCUIT</a>
+                  </td>
+                  <td>
+            Clave Única de Identificación Tributaria (CUIT) de la empresa.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="e2593f32-f06d-1433-1b9f-2f9738855d6b.htm">EmpresaDireccion</a>
+                  </td>
+                  <td>
+            Domicilio de la empresa.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="28dd3807-12e3-ad47-0f91-717c4467a909.htm">EmpresaRazonSocial</a>
+                  </td>
+                  <td>
+            Razón social de la empresa.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="4fbb402a-2e18-c5b2-d774-d644e45321d7.htm">EmpresaTelefono</a>
+                  </td>
+                  <td>
+            Teléfono de la empresa.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="57bbd525-8a21-c70a-b8a5-434247fbc917.htm">ImpresoraPredeterminada</a>
+                  </td>
+                  <td>
+            Nombre de la impresora por defecto.
+            </td>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="04dcc6a6-b0d8-56b5-7d78-c5fab019b76c.htm">PorcentajeIVA</a>
+                  </td>
+                  <td>
+            Porcentaje de IVA.
+            </td>
+                </tr>
+              </table>
+            </div>
+            <h2 class="quickLinkHeader">
+              <span class="icon toggleSection" tabindex="0">
+                <i class="fa fa-angle-down"></i>
+              </span>Vea también</h2>
+            <div id="seeAlsoSection">
+              <h4>Referencia</h4>
+              <div>
+                <a href="ce60abec-97ef-080a-1d5b-21e12a9696cf.htm">Configuracion Clase</a>
+              </div>
+              <div>
+                <a href="f37a6351-73fa-a0f1-addc-7b35190a2939.htm">Espacio de nombres EntityLayer</a>
+              </div>
+            </div>
+          </div>
+          <div id="InThisArticleColumn" class="column is-hidden-mobile">
+            <nav class="menu sticky is-hidden">
+              <p class="menu-label">
+                <strong>In This Article</strong>
+              </p>
+              <ul id="InThisArticleMenu" class="menu-list">
+                <li>
+                  <a class="quickLink">Propiedades</a>
+                </li>
+                <li>
+                  <a class="quickLink">Vea también</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+});</script>
+  </body>
+</html>
