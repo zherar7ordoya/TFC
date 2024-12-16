@@ -46,7 +46,7 @@ namespace EntityLayer
         /// <returns>Cadena que representa la entidad.</returns>
         public override string ToString()
         {
-            return $"L-{Id:D3}: {Fecha:dd/MM/yyyy} || ${TotalLiquidacion:C}";
+            return $"L-{Id:D3}: {Fecha:dd/MM/yyyy} || {TotalLiquidacion:C}";
         }
     }
 }

@@ -79,7 +79,15 @@ public static class TreeViewService
             }
             else if (value != null) // Propiedades simples
             {
-                node.Nodes.Add(new TreeNode($"{property.Name}: {value}"));
+                if (value is DateTime dateValue)
+                {
+                    // Formatear el DateTime para mostrar solo la fecha
+                    node.Nodes.Add(new TreeNode($"{property.Name}: {dateValue:dd/MM/yyyy}"));
+                }
+                else
+                {
+                    node.Nodes.Add(new TreeNode($"{property.Name}: {value}"));
+                }
             }
         }
 
